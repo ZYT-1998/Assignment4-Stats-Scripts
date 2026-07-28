@@ -1,0 +1,5 @@
+The manual and AI analyses gave consistent results for the main statistical tests and regression models. The group means, p-values, and regression coefficients were the same or very close. Any small differences were mainly caused by rounding or how the results were displayed. I checked that both notebooks used the same datasets, variables, test types, and model formulas.
+
+For the extension, the AI used a bootstrap confidence interval to compare the mean VIQ scores of male and female participants. I think this was a reasonable choice because it directly examined the uncertainty around the observed mean difference. The confidence interval included zero, which agreed with the nonsignificant two-sample t-test result. This made the extension relevant to the data instead of just being a commonly used method.
+
+The AI referred to the SciPy Lecture Notes and the official documentation for SciPy, pandas, Statsmodels, Matplotlib, and Seaborn. I checked that these sources were real and related to the methods used in the notebooks. I did not include any references that could not be verified.
