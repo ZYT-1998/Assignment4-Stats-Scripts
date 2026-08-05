@@ -27,8 +27,6 @@ jupyter lab
 
 Open each notebook and run all cells from top to bottom. The notebooks expect the datasets to be stored in the `examples` folder.
 
-## Acknowledgments
+## Assignment Process
 
-The manual walkthrough was based on the statistics section of the SciPy Lecture Notes. AI was used to generate the assisted analysis, statistical extension, explanations, and code organization.
-
-This repository was created for educational purposes.
+The manual notebook follows the statistics examples from the SciPy Lecture Notes. The AI notebooks were created separately from natural-language prompts describing the datasets and statistical questions. The lecture notes were not provided to the AI. The complete AI prompt log is available in `ai/PROMPTS.md`.

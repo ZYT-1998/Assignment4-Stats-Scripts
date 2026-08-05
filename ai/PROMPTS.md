@@ -1,14 +1,25 @@
-Prompt 1
-Create a complete AI-assisted Python statistics walkthrough using the same brain-size, iris, and wage datasets as the manual notebook. Include data inspection, descriptive statistics, hypothesis tests, regression models, visualizations, and short interpretations of the results.
+# AI Prompt Log
 
-Prompt 2
-For the brain-size dataset, compare female and male VIQ scores using both parametric and nonparametric tests. Also compare paired FSIQ and PIQ scores and compare weight between female and male participants. Clearly report and explain the test statistics and p-values.
+## Prompt 1: Initial data analysis
 
-Prompt 3
-Add simple linear regression, categorical regression, and multiple regression analyses. Include a model that predicts VIQ from gender, MRI count, height, and weight. Provide model summaries, coefficient tables, diagnostic plots, and student-level interpretations.
+I have a brain-size dataset with the variables Gender, FSIQ, VIQ, PIQ, Weight, Height, and MRI_Count. Please create a Python analysis that loads the dataset, checks its dimensions and missing values, produces descriptive statistics, and compares the main variables between female and male participants. Organize the notebook with clear Markdown headings and explain the results in student-level language.
 
-Prompt 4
-Analyze the iris and wage datasets. For the iris data, use species and petal length to predict sepal width. For the wage data, compare an additive model with an education-by-sex interaction model and explain whether the interaction is statistically significant.
+## Prompt 2: Hypothesis testing
 
-Prompt 5
-Create a separate statistical extension using 10,000 bootstrap resamples to estimate a 95% confidence interval for the difference in mean VIQ between male and female participants. Visualize the bootstrap distribution and compare the conclusion with an independent two-sample t-test.
+Using the brain-size dataset, test whether female and male participants have different VIQ scores. Include an independent-samples t-test and a nonparametric alternative. Also compare FSIQ and PIQ as paired measurements and compare participant weight by gender. Report the test statistic and p-value, and briefly explain what each result means.
+
+## Prompt 3: Regression analysis
+
+Create several regression models using the brain-size dataset. Include a simple linear regression, a regression with a categorical predictor, and a multiple regression predicting VIQ from Gender, MRI_Count, Height, and Weight. Display the model summaries and explain which predictors are statistically significant.
+
+## Prompt 4: Iris and wage analyses
+
+For the iris dataset, create a regression model using species and petal length to predict sepal width. For the wage dataset, compare an additive regression model with a model containing an education-by-sex interaction. Explain whether adding the interaction improves the model and whether the interaction is statistically significant.
+
+## Prompt 5: Statistical extension
+
+Create a separate Python notebook that uses ten thousand bootstrap samples to estimate a ninety-five percent confidence interval for the difference in mean VIQ between female and male participants. Include a graph of the bootstrap distribution and compare the bootstrap result with an independent-samples t-test.
+
+## Follow-up prompt
+
+Revise the notebooks so that all datasets are loaded from the ../examples folder. Keep the analyses divided into clear sections, include the important numerical output, and add brief interpretations without referring to or copying any statistics tutorial.
