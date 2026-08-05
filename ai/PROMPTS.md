@@ -2,7 +2,7 @@
 
 ## Prompt 1: Initial data analysis
 
-I have a brain-size dataset with the variables Gender, FSIQ, VIQ, PIQ, Weight, Height, and MRI_Count. Please create a Python analysis that loads the dataset, checks its dimensions and missing values, produces descriptive statistics, and compares the main variables between female and male participants. Organize the notebook with clear Markdown headings and explain the results in student-level language.
+Create a Python statistics analysis using brain-size, iris, and wage datasets. Include data inspection, descriptive statistics, hypothesis tests, regression models, visualizations, and short student-level interpretations of the results.
 
 ## Prompt 2: Hypothesis testing
 

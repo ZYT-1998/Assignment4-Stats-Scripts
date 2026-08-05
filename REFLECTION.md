@@ -4,4 +4,4 @@ For the extension, the AI used bootstrapping to estimate a confidence interval f
 
 The AI did not provide formal research citations. It mainly used functions from pandas, SciPy, statsmodels, NumPy, and Matplotlib. I checked that the functions and packages were real and that the statistical methods were appropriate. I did not include any references that I could not verify.
 
-For the AI portion, I did not paste the SciPy tutorial or my manual notebook into the AI tool. I described the datasets, variables, and questions in my own words and asked the AI to create the analyses. I also used follow-up prompts to fix file paths, organize the notebooks, and improve the explanations. The complete prompts are saved in ai/PROMPTS.md.
+For the AI portion, I did not paste the SciPy tutorial or my manual notebook into the AI tool. Instead, I described the datasets, variables, and statistical questions in my own words. I used separate prompts for the hypothesis tests, regression models, and bootstrap extension. The complete prompts are saved in ai/PROMPTS.md.
